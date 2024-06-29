@@ -1,0 +1,446 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #004d40;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00acc1;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00acc1;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #007c91;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+}
+
+.about-image img {
+  flex: 1;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Services Section */
+.services {
+  background-color: #e0f7fa;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+}
+
+/* FAQs Section */
+.faqs {
+  padding: 80px 20px;
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+}
+
+.faqs-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faqs h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+}
+
+.faq-item a {
+  color: #00acc1; /* Set link color to blue */
+}
+
+.faq-item a:hover {
+  color: #007c91; /* Set link hover color */
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.testimonials-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonial-item {
+  margin-bottom: 20px;
+  background: #e0f7fa;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.testimonial-item p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Case Studies Section */
+.case-studies {
+  padding: 80px 20px;
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+}
+
+.case-studies-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.case-studies h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.case-study-item {
+  text-align: left;
+  margin-bottom: 20px;
+  background: #e0f7fa;
+  padding: 20px;
+  border-radius: 5px;
+  color: black; /* Change the font color to black */
+}
+
+.case-study-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.case-study-item p {
+  font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  margin-bottom: 40px;
+}
+
+.info-item {
+  margin-bottom: 20px;
+}
+
+.info-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.info-item a {
+  color: #00acc1; /* Set link color to blue */
+  text-decoration: none;
+}
+
+.info-item a:hover {
+  color: #007c91; /* Set link hover color */
+}
+
+/* Footer */
+.footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  height: 60px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-content {
+    padding-right: 0;
+  }
+
+  .service-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact h2 {
+    font-size: 28px;
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .about-content h2 {
+    font-size: 28px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+  .services h2 {
+    font-size: 28px;
+  }
+
+  .service-item h3 {
+    font-size: 20px;
+  }
+
+  .service-item p {
+    font-size: 14px;
+  }
+
+  .faqs h2 {
+    font-size: 28px;
+  }
+
+  .faq-item h3 {
+    font-size: 20px;
+  }
+
+  .faq-item p {
+    font-size: 14px;
+  }
+
+  .testimonials h2 {
+    font-size: 28px;
+  }
+
+  .testimonials-content {
+    padding: 0 10px;
+  }
+
+  .testimonial-item p {
+    font-size: 14px;
+  }
+
+  .case-studies h2 {
+    font-size: 28px;
+  }
+
+  .case-studies-content {
+    padding: 0 10px;
+  }
+
+  .case-study-item h3 {
+    font-size: 20px;
+  }
+
+  .case-study-item p {
+    font-size: 14px;
+  }
+
+  .contact-container {
+    padding: 0 10px;
+  }
+
+  .info-item h3 {
+    font-size: 20px;
+  }
+
+  .info-item a {
+    font-size: 14px;
+  }
+}
